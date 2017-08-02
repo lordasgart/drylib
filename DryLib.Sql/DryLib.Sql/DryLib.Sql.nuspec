@@ -11,7 +11,7 @@
     <iconUrl>https://raw.githubusercontent.com/lordasgart/Assets/master/lordasgart.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Added ReadUncommited and ExecuteNonQuery</releaseNotes>
+    <releaseNotes>Dal inherits from IDal now</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>SQL</tags>
   </metadata>

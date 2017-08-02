@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DryLib.Sql
 {
-    public class Dal
+    public class Dal : IDal
     {
         private readonly string _connectionString;
 

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <PackageTargetFallback>portable-net45+win8+wpa81+wp8</PackageTargetFallback>
+    <Authors>lordasgart</Authors>
+    <Company>lordasgart</Company>
+    <Description>Converters for Xamarin, e.g. Boolean Converter BooleanNotConverter</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/lordasgart/drylib</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/lordasgart/drylib/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/lordasgart/Assets/master/lordasgart.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/lordasgart/drylib</RepositoryUrl>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="2.3.4.247" />
+  </ItemGroup>
+
+</Project>

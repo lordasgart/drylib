@@ -7,6 +7,7 @@
     <PackageProjectUrl>https://github.com/lordasgart/drylib/tree/master/DryLib.IO</PackageProjectUrl>
     <Description>Crossplatform path library</Description>
     <SynchReleaseVersion>false</SynchReleaseVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>

@@ -14,7 +14,7 @@ namespace DryLib.IO
         public Path(string path)
         {
             _path = path;
-            _isPosixStyle = path.StartsWith("/");
+            _isPosixStyle = path.StartsWith("/", StringComparison.InvariantCulture);
         }
 
         public string Get()
@@ -51,7 +51,7 @@ namespace DryLib.IO
             //this is done by now with the static CustomRoot
             posixPath = posixPath.Replace(driveLetter.ToString().ToUpper() + ":", CustomRoot).Replace(driveLetter.ToString().ToLower() + ":", CustomRoot);
 
-            posixPath = posixPath.Replace(" ", "\\ "); //mask space with \
+            //posixPath = posixPath.Replace(" ", "\\ "); //mask space with \
 
             return posixPath;
         }

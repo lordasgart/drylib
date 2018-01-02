@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>lordasgart</Authors>
+    <Owners>lordasgart</Owners>
+    <PackageProjectUrl>https://github.com/lordasgart/drylib/tree/master/DryLib.IO</PackageProjectUrl>
+    <Description>Crossplatform path library</Description>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
   </PropertyGroup>
 
 </Project>
